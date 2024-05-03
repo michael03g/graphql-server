@@ -3,7 +3,7 @@ import { ApolloServerPluginDrainHttpServer } from "apollo-server-core";
 import http from "http";
 import express from "express";
 
-import Schema from "./schema"
+import Schema from "./schema";
 import Resolvers from "./resolvers";
 import AppDataSource from "./typeorm.config";
 
