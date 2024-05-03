@@ -6,6 +6,7 @@ import {
   ManyToMany,
   PrimaryGeneratedColumn,
 } from "typeorm";
+
 import { Facility } from "./Facility";
 
 @Entity()
